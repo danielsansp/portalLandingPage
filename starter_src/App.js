@@ -11,12 +11,13 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
+    <FindUs />
     <Intro />
     <Laurels />
     <Gallery />
-    <FindUs />
     <Footer />
   </div>
 );
 
 export default App;
+// <FindUs /> FindUs, //

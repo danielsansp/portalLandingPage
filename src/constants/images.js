@@ -20,6 +20,9 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import logoPortal from '../assets/logoPortalSt.jpeg';
+import transparentLogo from '../assets/transparentLogo.png';
+import nortenaBurger from '../assets/nortena.png';
 
 export default {
   bg,
@@ -44,4 +47,7 @@ export default {
   sign,
   quote,
   gericht,
+  logoPortal,
+  transparentLogo,
+  nortenaBurger,
 };
