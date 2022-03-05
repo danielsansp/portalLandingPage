@@ -11,10 +11,10 @@ const AboutUs = () => (
 
     <div className="app__aboutus-content flex__center">
       <div className="app__aboutus-content_about">
-        <h1 className="headtext__cormorant">About Us</h1>
+        <h1 className="headtext__cormorant">Nosotros</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet eu proin mauris et.</p>
-        <button type="button" className="custom__button">Know More</button>
+        <p className="p__opensans">Somos una hamborguesería artesanal, creemos en la calidad de nuestros productos y en el amor con el que lo elaboramos.</p>
+        <button type="button" className="custom__button">Saber más</button>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
