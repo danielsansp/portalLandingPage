@@ -1,30 +1,35 @@
 import images from './images';
 
-const wines = [
+const burgers = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Portal',
+    price: '$11.500',
+    tags: '150 gr de carne artesanal, queso, tocineta, lechuga, tomate',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Portazo',
+    price: '$19.000',
+    tags: 'Dos carnes de 150 gr de carne artesanal, doble queso, tocineta, lechuga, tomate',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Pollo',
+    price: '$11.500',
+    tags: 'Filete de pollo, queso, tocineta, lechuga, tomate, cebolla',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Ranchera',
+    price: '$15.000',
+    tags: '150 gr de carne artesanal, salchicha ranchera en salsa BB, queso, tocineta, lechuga, tomate',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Queso',
+    price: '$12.000',
+    tags: '150 gr de carne artesanal, triple queso, tocineta',
+  },
+  {
+    title: 'Junior',
+    price: '$9.000',
+    tags: '100 gr de carne artesanal, queso, tocineta, lechuga, tomate',
   },
 ];
 
@@ -79,4 +84,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { burgers, cocktails, awards };
