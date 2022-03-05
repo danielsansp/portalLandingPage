@@ -31,6 +31,11 @@ const burgers = [
     price: '$9.000',
     tags: '100 gr de carne artesanal, queso, tocineta, lechuga, tomate',
   },
+  {
+    title: 'Norteña',
+    price: '$15.500',
+    tags: '120 gr de carne desmechada con picante y frijol sofritot, tocineta, queso, aros de cebolla,/n pepino agridulces',
+  },
 ];
 
 const cocktails = [
