@@ -2,6 +2,14 @@ import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
 import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
+import portalBurger from '../assets/portalBurger.png';
+import nortenaburger1 from '../assets/nortenaburger1.png';
+import portazoBurger from '../assets/portazoBurger.png';
+import rancheraBurger from '../assets/rancheraBurger.png';
+import perroBurger from '../assets/perroBurger.png';
+import cheesBurger from '../assets/cheesBurger.png';
+import sandwichGratinado from '../assets/sandwichGratinado.png';
+import salchipapas from '../assets/salchipapas.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
@@ -29,6 +37,14 @@ export default {
   chef,
   G,
   gallery01,
+  portalBurger,
+  nortenaburger1,
+  portazoBurger,
+  rancheraBurger,
+  cheesBurger,
+  perroBurger,
+  sandwichGratinado,
+  salchipapas,
   gallery02,
   gallery03,
   gallery04,
