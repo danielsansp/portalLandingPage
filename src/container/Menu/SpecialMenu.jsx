@@ -20,16 +20,15 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
-
       {/* <div className="app__specialMenu-menu_img">
         <img src={images.menu} alt="menu__img" />
       </div> */}
 
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Cocktails</p>
+        <p className="app__specialMenu-menu_heading">Sandwiches</p>
         <div className="app__specialMenu_menu_items">
-          {data.cocktails.map((cocktail, index) => (
-            <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+          {data.sandwich.map((sandwich, index) => (
+            <MenuItem key={sandwich.title + index} title={sandwich.title} price={sandwich.price} tags={sandwich.tags} />
           ))}
         </div>
       </div>

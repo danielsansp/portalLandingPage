@@ -34,15 +34,15 @@ const burgers = [
   {
     title: 'Norteña',
     price: '$15.500',
-    tags: '120 gr de carne desmechada con picante y frijol sofritot, tocineta, queso, aros de cebolla,/n pepino agridulces',
+    tags: '120 gr de carne desmechada con picante y frijol sofritot, tocineta, queso, aros de cebolla, pepino agridulces',
   },
 ];
 
-const cocktails = [
+const sandwich = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Pollo',
+    price: '$8.500',
+    tags: 'Pechuga a la plancha, pan, queso, lechuga,tomate, salsa de ajo',
   },
   {
     title: "Dark 'N' Stormy",
@@ -89,4 +89,4 @@ const awards = [
   },
 ];
 
-export default { burgers, cocktails, awards };
+export default { burgers, sandwich, awards };
