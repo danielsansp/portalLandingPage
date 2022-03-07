@@ -45,24 +45,31 @@ const sandwich = [
     tags: 'Pechuga a la plancha, pan, queso, lechuga,tomate, salsa de ajo',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Jamon',
+    price: '$7.500',
+    tags: 'Jamon, pan, queso, lechuga,tomate, salsa de ajo Portal',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Norteño',
+    price: '$9.500',
+    tags: 'Carne desmechada con frijol sofrito algo picante, pan, queso, lechuga,tomate, salsa de ajo Portal',
+  },
+];
+const perros = [
+  {
+    title: 'Perro Portal',
+    price: '$9.500',
+    tags: 'Salchicha Zenu tipo americano, tocineta, pan bimbo, doble queso, cebolla, papa fosforito, salsa tartara Portal',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Perra Portal',
+    price: '$10.500',
+    tags: 'Tocineta, pan bimbo, doble queso, cebolla, papa fosforito, salsa tartara Portal',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Perro Norteño',
+    price: '$12.000',
+    tags: 'Carne desmechada con frijol sofrito algo picante, pan, queso, lechuga,tomate, salsa tartara Portal',
   },
 ];
 
@@ -89,4 +96,4 @@ const awards = [
   },
 ];
 
-export default { burgers, sandwich, awards };
+export default { burgers, sandwich, perros, awards };

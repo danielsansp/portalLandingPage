@@ -32,6 +32,14 @@ const SpecialMenu = () => (
           ))}
         </div>
       </div>
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading">Perros</p>
+        <div className="app__specialMenu_menu_items">
+          {data.perros.map((perros, index) => (
+            <MenuItem key={perros.title + index} title={perros.title} price={perros.price} tags={perros.tags} />
+          ))}
+        </div>
+      </div>
     </div>
 
     <div style={{ marginTop: 15 }}>
