@@ -50,16 +50,19 @@ const sandwich = [
     title: 'Pollo',
     price: '$8.500',
     tags: 'Pechuga a la plancha, pan, queso, lechuga,tomate, salsa de ajo',
+    comboPrice: '$12.500',
   },
   {
     title: 'Jamon',
     price: '$7.500',
     tags: 'Jamon, pan, queso, lechuga,tomate, salsa de ajo Portal',
+    comboPrice: '$11.500',
   },
   {
     title: 'Norteño',
     price: '$9.500',
     tags: 'Carne desmechada con frijol sofrito algo picante, pan, queso, lechuga,tomate, salsa de ajo Portal',
+    comboPrice: '$13.500',
   },
 ];
 const perros = [
@@ -67,16 +70,19 @@ const perros = [
     title: 'Perro Portal',
     price: '$9.500',
     tags: 'Salchicha Zenu tipo americano, tocineta, pan bimbo, doble queso, cebolla, papa fosforito, salsa tartara Portal',
+    comboPrice: '$14.000',
   },
   {
     title: 'Perra Portal',
     price: '$10.500',
     tags: 'Tocineta, pan bimbo, doble queso, cebolla, papa fosforito, salsa tartara Portal',
+    comboPrice: '$14.500',
   },
   {
     title: 'Perro Norteño',
     price: '$12.000',
     tags: 'Carne desmechada con frijol sofrito algo picante, pan, queso, lechuga,tomate, salsa tartara Portal',
+    comboPrice: '$16.500',
   },
 ];
 
