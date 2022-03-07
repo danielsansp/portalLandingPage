@@ -5,36 +5,43 @@ const burgers = [
     title: 'Portal',
     price: '$11.500',
     tags: '150 gr de carne artesanal, queso, tocineta, lechuga, tomate',
+    comboPrice: '$16.000',
   },
   {
     title: 'Portazo',
     price: '$19.000',
     tags: 'Dos carnes de 150 gr de carne artesanal, doble queso, tocineta, lechuga, tomate',
+    comboPrice: '$23.000',
   },
   {
     title: 'Pollo',
     price: '$11.500',
     tags: 'Filete de pollo, queso, tocineta, lechuga, tomate, cebolla',
+    comboPrice: '$16.000',
   },
   {
     title: 'Ranchera',
     price: '$15.000',
     tags: '150 gr de carne artesanal, salchicha ranchera en salsa BB, queso, tocineta, lechuga, tomate',
+    comboPrice: '$19.000',
   },
   {
     title: 'Queso',
     price: '$12.000',
     tags: '150 gr de carne artesanal, triple queso, tocineta',
+    comboPrice: '$16.500',
   },
   {
     title: 'Junior',
     price: '$9.000',
     tags: '100 gr de carne artesanal, queso, tocineta, lechuga, tomate',
+    comboPrice: '$14.000',
   },
   {
     title: 'Norteña',
     price: '$15.500',
     tags: '120 gr de carne desmechada con picante y frijol sofritot, tocineta, queso, aros de cebolla, pepino agridulces',
+    comboPrice: '$19.500',
   },
 ];
 
