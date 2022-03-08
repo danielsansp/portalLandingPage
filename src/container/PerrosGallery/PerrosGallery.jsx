@@ -3,14 +3,13 @@ import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
-import './Gallery.css';
+import './PerrosGallery.css';
 
-const Gallery = () => {
+const PerrosGallery = () => {
   const scrollRef = React.useRef(null);
 
   const scroll = (direction) => {
     const { current } = scrollRef;
-
     if (direction === 'left') {
       current.scrollLeft -= 300;
     } else {
@@ -22,7 +21,7 @@ const Gallery = () => {
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant">Hamburguesas</h1>
+        <h1 className="headtext__cormorant">Perros</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Estos son nuestros deliciosas Hamburguesas artesanales</p>
         {/* <button type="button" className="custom__button">View More</button> */}
       </div>
@@ -43,5 +42,4 @@ const Gallery = () => {
     </div>
   );
 };
-
-export default Gallery;
+export default PerrosGallery;

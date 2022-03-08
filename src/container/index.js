@@ -8,6 +8,7 @@ import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import SandwichGallery from './SandwichGallery/SandwichGallery';
+import PerrosGallery from './PerrosGallery/PerrosGallery';
 
 export {
   AboutUs,
@@ -20,4 +21,5 @@ export {
   Laurels,
   SpecialMenu,
   SandwichGallery,
+  PerrosGallery,
 };
