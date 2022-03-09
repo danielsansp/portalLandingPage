@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
 
-import { SubHeading } from '../../components';
+// import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import './PerrosGallery.css';
 
@@ -20,14 +20,14 @@ const PerrosGallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
+        {/* <SubHeading title="Instagram" /> */}
         <h1 className="headtext__cormorant">Perros</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Estos son nuestros deliciosas Hamburguesas artesanales</p>
         {/* <button type="button" className="custom__button">View More</button> */}
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
-          {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.portazoBrancheraBurgerurger].map((image, index) => (
+          {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
               <img src={image} alt="gallery_image" />
               <BsInstagram className="gallery__image-icon" />
