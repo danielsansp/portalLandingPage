@@ -31,9 +31,12 @@ import gericht from '../assets/gericht.png';
 import logoPortal from '../assets/logoPortalSt.jpeg';
 import transparentLogo from '../assets/transparentLogo.png';
 import nortenaBurger from '../assets/nortena.png';
+import burgerIcon from '../assets/burgerIcon.png';
+import whiteBurgerIcon from '../assets/whiteBurgerIcon.png';
 
 export default {
   bg,
+  burgerIcon,
   chef,
   G,
   gallery01,
@@ -60,6 +63,7 @@ export default {
   award02,
   award03,
   award05,
+  whiteBurgerIcon,
   sign,
   quote,
   gericht,
