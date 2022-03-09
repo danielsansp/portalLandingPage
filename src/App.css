@@ -72,7 +72,6 @@
   color: var(--color-white);
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
   font-size: 23px;
@@ -83,7 +82,6 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
 }
@@ -94,7 +92,6 @@
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
 }
 
 .spoon__img {
