@@ -9,12 +9,11 @@ const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
     {/* <Newsletter /> */}
-
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contactanos</h1>
         <p className="p__opensans">Cll 50 cr29 esquina</p>
-        <p className="p__opensans">304 659 55 22</p>
+        <p className="p__opensans contactCall">304 659 55 22</p>
       </div>
 
       <div className="app__footer-links_logo">

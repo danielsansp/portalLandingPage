@@ -96,6 +96,9 @@
     .app__footer {
         padding: 0 0 2rem 0;
     }
+    .contactCall {
+        font-size: 1.5rem !important;
+    }
 }
 
 @media screen and (max-width: 350px) {
