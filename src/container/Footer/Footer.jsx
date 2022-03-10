@@ -13,7 +13,10 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contactanos</h1>
         <p className="p__opensans">Cll 50 cr29 esquina</p>
-        <p className="p__opensans contactCall">304 659 55 22</p>
+        <a href="https://wa.me/573046595522?text=Hola%20quiero%20hacer%20un%20pedido" target="_blank" rel="noreferrer noopener" className="Instagram_link">
+          <img src={images.logoWhatsApp} className="spoon__img" style={{ marginTop: 15 }} />
+          <p className="p__opensans contactCall">304 659 55 22</p>
+        </a>
       </div>
 
       <div className="app__footer-links_logo">

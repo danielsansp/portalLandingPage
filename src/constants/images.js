@@ -35,7 +35,7 @@ import burgerIcon from '../assets/burgerIcon.png';
 import whiteBurgerIcon from '../assets/whiteBurgerIcon.png';
 import whatsAppIcon from '../assets/whatsApp.png';
 import whatsAppIconBlack from '../assets/whataAppIconBlack.jpeg';
-import logoWhatsApp from '../assets/logo-whatsapp.jpg';
+import logoWhatsApp from '../assets/whatsapp-svgrepo-com.svg';
 
 export default {
   bg,
