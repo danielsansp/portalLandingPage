@@ -1,0 +1,53 @@
+/* styles from MobileOffers layout-component */
+
+.simple-slider {
+  background-color: black;
+  border-radius: black;
+}
+
+.simple-slider .slick-next {
+  right: 1.5rem;
+  top: 3rem;
+}
+
+.simple-slider .slick-slider {
+  padding-top: 6rem;
+}
+
+.simple-slider .slick-next:before {
+  content: '>';
+  color: var(--black);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.simple-slider .slick-prev {
+  left: 1.5rem;
+  top: 3rem;
+}
+
+.simple-slider .slick-prev:before {
+  content: '<';
+  color: var(--black);
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.mobil-image-section{
+  border-radius: var(--second-border-radius);
+  height: 100%;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 36rem) {
+  .simple-slider {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  .mobile {
+    display: none;
+  }
+}

@@ -8,15 +8,9 @@ const App = () => (
   <div>
     <Navbar />
     <Header />
-    {/* <AboutUs /> */}
-    {/* <SpecialMenu /> */}
-    {/* <Chef /> */}
-    {/* <Intro /> */}
-    {/* <Laurels /> */}
     <Gallery />
     <SandwichGallery />
     <PerrosGallery />
-    {/* <FindUs /> */}
     <Footer />
   </div>
 );
