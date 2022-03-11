@@ -14,7 +14,7 @@ const Footer = () => (
         <h1 className="app__footer-headtext">Contactanos</h1>
         <p className="p__opensans">Cll 50 cr29 esquina</p>
         <a href="https://wa.me/573046595522?text=Hola,%20quiero%20hacer%20un%20pedido" target="_blank" rel="noreferrer noopener" className="Instagram_link">
-          <img src={images.logoWhatsApp} className="spoon__img" style={{ marginTop: 15 }} />
+          <img src={images.logoWhatsApp} className="spoon__img" style={{ marginTop: 15 }} alt="whatsApp Icon"/>
           <p className="p__opensans contactCall">304 659 55 22</p>
         </a>
       </div>
@@ -22,7 +22,7 @@ const Footer = () => (
       <div className="app__footer-links_logo">
         <img src={images.transparentLogo} alt="footer_logo" />
         <p className="p__opensans">&quot;Hamburguesa artesanal echa con amor&quot;</p>
-        <img src={images.whiteBurgerIcon} className="spoon__img" style={{ marginTop: 15 }} />
+        <img src={images.whiteBurgerIcon} className="spoon__img" style={{ marginTop: 15 }} alt="Burger Icon"/>
         <div className="app__footer-links_icons">
           <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
             <FiFacebook />
