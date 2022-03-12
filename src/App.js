@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Footer, Gallery, Header, SandwichGallery, PerrosGallery } from './container';
-import { Navbar } from './components';
+import { Footer, Gallery, Header, SandwichGallery, PerrosGallery} from './container';
+import { Navbar} from './components';
 import './App.css';
 
 const App = () => (
@@ -11,6 +11,7 @@ const App = () => (
     <Gallery />
     <SandwichGallery />
     <PerrosGallery />
+    {/* <Carousel /> */}
     <Footer />
   </div>
 );
