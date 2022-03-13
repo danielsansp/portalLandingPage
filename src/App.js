@@ -11,7 +11,7 @@ const App = () => (
     <Gallery />
     <SandwichGallery />
     <PerrosGallery />
-    {/* <Carousel /> */}
+    <Carousel />
     <Footer />
   </div>
 );

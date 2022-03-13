@@ -40,11 +40,3 @@ const Carousel = () => {
 )};
 export default Carousel;
 
-/* const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  // eslint-disable-next-line implicit-arrow-linebreak
-  }; */
