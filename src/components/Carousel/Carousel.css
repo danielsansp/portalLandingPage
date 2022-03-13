@@ -1,5 +1,19 @@
 /* styles from MobileOffers layout-component */
-
+.slike-title{
+  background: var(--color-black);
+  color: brown;
+  font-size: 3rem;
+}
+.slick-slide img{
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+.slick-slider{
+  background: var(--color-black);
+}
 .simple-slider {
   background-color: black;
   border-radius: black;
