@@ -8,6 +8,29 @@ import { images } from '../../constants';
 
 import './Carousel.css';
 
+/*function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "red" }}
+      onClick={onClick}
+    />
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}*/
+
+
 const Carousel = () => {
   const settings = {
     dots: false,
@@ -15,6 +38,8 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    // nextArrow: <SampleNextArrow />,
+    // prevArrow: <SamplePrevArrow />
   };
   return (
   <div>
