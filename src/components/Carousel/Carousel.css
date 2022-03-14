@@ -1,12 +1,13 @@
-/* styles from MobileOffers layout-component */
-.slick-container{
+/* styles from Carousel components */
+/* .slick-container{
   display: block;
   height: auto;
-}
+} */
 .slick-title{
   background: var(--color-black);
-  color: brown;
+  color: rgb(196, 57, 57);
   font-size: 3rem;
+  padding-left: 1rem;
 }
 .slick-slide img{
   display: flex;
@@ -14,25 +15,34 @@
   margin: 1.5rem;
   padding: 0.5rem;
   width: 100%;
+  height: 100%;
 }
 .slick-slider{
   background: var(--color-black);
 }
 
 .slick-prev{
-  background: rgb(0, 23, 128);
-  position: relative;
-  bottom: -15rem;
-  left: 8rem; 
+  content: anterior !important;
+  display: flex;
+  background: rgb(253, 253, 253);
+  position: absolute;
+  bottom: -0rem;
+  right: 1rem; 
+  z-index: 3;
 }
-.slick-arrow{
+/* .slick-arrow{
   margin-top: auto;
-}
+} */
 .slick-next{
-  background: rgb(0, 23, 128);
+  background: rgb(246, 247, 248);
   position: absolute;
   bottom: 0rem;
   left: 1rem; 
+}
+
+.product-title{
+  color: aliceblue;
+  margin-left: 1rem;
 }
 .simple-slider {
   background-color: black;

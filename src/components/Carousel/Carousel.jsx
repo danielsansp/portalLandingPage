@@ -38,7 +38,7 @@ const Carousel = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 1,
     slidesToScroll: 1
   };
   return (
@@ -46,18 +46,33 @@ const Carousel = () => {
     <h2 className="slick-title">Hamburguesas</h2>
     <Slider {...settings} >
       <div>
+        <div className="product-title">
+          <h4>Hamburguesa Ranchera</h4> 
+        </div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
       </div>
       <div>
+        <div className="product-title">
+          <h4>Hamburguesa Portal</h4> 
+        </div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
       </div>
       <div>
+        <div className="product-title">
+          <h4>Hamburguesa Norteña</h4> 
+        </div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
       </div>
       <div>
+         <div className="product-title">
+          <h4>Hamburguesa Pollo</h4> 
+        </div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
       </div>
       <div>
+         <div className="product-title">
+          <h4>Hamburguesa Junior</h4> 
+        </div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
       </div>
     </Slider>
