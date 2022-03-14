@@ -30,6 +30,8 @@ function SamplePrevArrow(props) {
   );
 }*/
 
+// nextArrow: <SampleNextArrow />,
+// prevArrow: <SamplePrevArrow />
 
 const Carousel = () => {
   const settings = {
@@ -37,13 +39,11 @@ const Carousel = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 1,
-    // nextArrow: <SampleNextArrow />,
-    // prevArrow: <SamplePrevArrow />
+    slidesToScroll: 1
   };
   return (
-  <div>
-    <h2 className="slike-title">Hamburguesas</h2>
+  <div className="slick-container">
+    <h2 className="slick-title">Hamburguesas</h2>
     <Slider {...settings} >
       <div>
         <img src={images.rancheraBurger} alt="Hamburguesa Portal" />

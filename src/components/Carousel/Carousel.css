@@ -1,5 +1,9 @@
 /* styles from MobileOffers layout-component */
-.slike-title{
+.slick-container{
+  display: block;
+  height: auto;
+}
+.slick-title{
   background: var(--color-black);
   color: brown;
   font-size: 3rem;
@@ -7,7 +11,7 @@
 .slick-slide img{
   display: flex;
   flex-direction: row;
-  margin: 0.5rem;
+  margin: 1.5rem;
   padding: 0.5rem;
   width: 100%;
 }
@@ -16,14 +20,16 @@
 }
 
 .slick-prev{
-  background: green;
-  position: absolute;
-  bottom: 0rem;
-  right: 0.5rem;
+  background: rgb(0, 23, 128);
+  position: relative;
+  bottom: -15rem;
+  left: 8rem; 
 }
-
+.slick-arrow{
+  margin-top: auto;
+}
 .slick-next{
-  background: green;
+  background: rgb(0, 23, 128);
   position: absolute;
   bottom: 0rem;
   left: 1rem; 
