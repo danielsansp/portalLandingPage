@@ -13,22 +13,26 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red", position:"absolute",left:"1rem", bottom:"0", height:"1.5rem", width:"3rem",zIndex:"3"}}
+      style={{ ...style, display: "block", background: "red",
+               position:"absolute",left:"1rem", bottom:"0", height:"1.5rem",
+               width:"3rem",zIndex:"3"}}
       onClick={onClick}
     />
   );
 }
 
-/*function SamplePrevArrow(props) {
+function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, display: "block", background: "green" }}
+    className={className}
+      style={{ ...style, display: "block", background: "red",
+               position:"absolute",right:"1rem", bottom:"0", height:"1.5rem",
+               width:"3rem",zIndex:"3"}}
       onClick={onClick}
     />
   );
-}*/
+}
 
 // nextArrow: <SampleNextArrow />,
 // prevArrow: <SamplePrevArrow />
@@ -40,7 +44,8 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
   <div className="slick-container">

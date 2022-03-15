@@ -21,7 +21,7 @@
   background: var(--color-black);
 }
 
-.slick-prev{
+/* .slick-prev{
   content: anterior !important;
   display: flex;
   background: rgb(253, 253, 253);
@@ -29,23 +29,21 @@
   bottom: -0rem;
   right: 1rem; 
   z-index: 3;
-}
-/* .slick-arrow{
-  margin-top: auto;
 } */
+
 /* .slick-next{
   background: rgb(246, 247, 248);
   position: absolute;
   bottom: 0rem;
   left: 1rem; 
 } */
-
+.slick-prev:before {
+  display: inline;
+  content: '>';
+}
 .slick-next:before {
   display: inline;
   content: '<';
-  /* color: var(--black);
-  font-size: 3.5rem;
-  font-weight: bold; */
 }
 
 .product-title{
