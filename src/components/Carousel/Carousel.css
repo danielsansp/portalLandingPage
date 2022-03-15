@@ -33,11 +33,19 @@
 /* .slick-arrow{
   margin-top: auto;
 } */
-.slick-next{
+/* .slick-next{
   background: rgb(246, 247, 248);
   position: absolute;
   bottom: 0rem;
   left: 1rem; 
+} */
+
+.slick-next:before {
+  display: inline;
+  content: '<';
+  /* color: var(--black);
+  font-size: 3.5rem;
+  font-weight: bold; */
 }
 
 .product-title{

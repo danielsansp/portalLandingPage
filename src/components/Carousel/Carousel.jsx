@@ -8,18 +8,18 @@ import { images } from '../../constants';
 
 import './Carousel.css';
 
-/*function SampleNextArrow(props) {
+function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "red", position:"absolute",left:"1rem", bottom:"0", height:"1.5rem", width:"3rem",zIndex:"3"}}
       onClick={onClick}
     />
   );
 }
 
-function SamplePrevArrow(props) {
+/*function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <div
@@ -39,7 +39,8 @@ const Carousel = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />
   };
   return (
   <div className="slick-container">
