@@ -37,14 +37,14 @@
   bottom: 0rem;
   left: 1rem; 
 } */
-.slick-prev:before {
+/* .slick-prev:before {
   display: inline;
   content: '>';
-}
-.slick-next:before {
+} */
+/* .slick-next:before {
   display: inline;
   content: '<';
-}
+} */
 
 .product-title{
   color: aliceblue;
