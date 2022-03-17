@@ -1,8 +1,8 @@
 /* styles from Carousel components */
 /* .slick-container{
-  display: block;
+  display: inline;
   height: auto;
-} */
+}  */
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
@@ -21,22 +21,30 @@
   background: var(--color-black);
 }
 
-/* .slick-prev{
-  content: anterior !important;
-  display: flex;
-  background: rgb(253, 253, 253);
+.slick-prev{
   position: absolute;
+  margin: auto;
   bottom: -0rem;
   right: 1rem; 
   z-index: 3;
-} */
+}
 
-/* .slick-next{
-  background: rgb(246, 247, 248);
+.slick-next{
   position: absolute;
   bottom: 0rem;
-  left: 1rem; 
-} */
+  left: 1rem;
+  margin: auto;
+  width: 3rem;
+  z-index: 3;
+}
+.slick-left-arrow{
+  height: 2rem;
+  width: 3rem;
+}
+.slick-right-arrow{
+  height: 2rem;
+  width: 3rem;
+}
 /* .slick-prev:before {
   display: inline;
   content: '>';

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BsInstagram, BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs';
+import { BsInstagram, BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill } from 'react-icons/bs';
 
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -15,24 +15,17 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red",
-               position:"absolute",left:"1rem", bottom:"0", height:"1.5rem",
-               width:"3rem",zIndex:"3"}}
       onClick={onClick}
-    > <BsArrowLeftShort /> </div>
+    > <BsFillArrowLeftSquareFill className="slick-left-arrow" /> </div>
   );
 }
 
 function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
-    <div
-    className={className}
-      style={{ ...style, display: "block", background: "red",
-               position:"absolute",right:"1rem", bottom:"0", height:"1.5rem",
-               width:"3rem",zIndex:"3"}}
-      onClick={onClick}
-    > <BsArrowRightShort /></div>
+    <div className={className} onClick={onClick}>
+      <BsFillArrowRightSquareFill className="slick-right-arrow"  />
+    </div>
   );
 }
 
