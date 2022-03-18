@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { SubHeading } from '../../components';
+import { SubHeading, WhatsAppButton } from '../../components';
 import { images } from '../../constants';
 import './Header.css';
 
@@ -16,6 +16,7 @@ const Header = () => (
     <div className="app__wrapper_img">
       <img src={images.portalBurger} alt="header_img" />
     </div>
+    <div><WhatsAppButton /></div>
   </div>
 );
 

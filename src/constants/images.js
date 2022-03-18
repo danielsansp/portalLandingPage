@@ -18,6 +18,7 @@ import whatsAppIcon from '../assets/whatsApp.png';
 import whatsAppIconBlack from '../assets/whataAppIconBlack.jpeg';
 import whiteBurgerIcon from '../assets/whiteBurgerIcon.png';
 import transparentLogo from '../assets/transparentLogo.png';
+import whatsAppsvg from "../assets/whatsapp-icon.svg"
 
 export default {
   bg,
@@ -39,5 +40,6 @@ export default {
   whatsAppIcon,
   whatsAppIconBlack,
   whiteBurgerIcon,
+  whatsAppsvg,
   transparentLogo,
 };

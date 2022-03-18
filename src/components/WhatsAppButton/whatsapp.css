@@ -1,0 +1,55 @@
+/* for desktop */
+.whatsapp_float {
+    background-color: none;
+    position: fixed;
+    right: 13rem;
+    text-align: center;
+    z-index: 100;
+}
+
+/* for md */
+@media only screen and (max-width: 101rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 5rem;
+    }
+}
+@media only screen and (max-width: 88rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 7rem;
+    }
+}
+/* for mobile */
+@media only screen and (max-width: 48rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 26rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 1rem;
+    }
+    .whatsapp-icon{
+        height: 5rem;
+    }
+}
+
+@media only screen and (max-width: 23rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 2rem;
+    }
+    .whatsapp-icon{
+        height: 5rem;
+    }
+}
+@media screen and (min-width: 101rem) {
+    .whatsapp_float {
+        bottom: 1rem;
+        right: 3rem;
+    }
+}

@@ -1,13 +1,16 @@
 /* styles from Carousel components */
-/* .slick-container{
-  display: inline;
-  height: auto;
-}  */
+.slick-container{
+  margin: auto;
+}
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
   font-size: 3rem;
   padding-left: 1rem;
+}
+.slick-product{
+  color: white;
+  margin-left: 1rem;
 }
 .slick-slide img{
   display: flex;
@@ -45,19 +48,7 @@
   height: 2rem;
   width: 3rem;
 }
-/* .slick-prev:before {
-  display: inline;
-  content: '>';
-} */
-/* .slick-next:before {
-  display: inline;
-  content: '<';
-} */
 
-.product-title{
-  color: aliceblue;
-  margin-left: 1rem;
-}
 .simple-slider {
   background-color: black;
   border-radius: black;

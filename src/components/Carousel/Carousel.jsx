@@ -11,7 +11,7 @@ import { images } from '../../constants';
 import './Carousel.css';
 
 function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div
       className={className}
@@ -21,7 +21,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, onClick } = props;
   return (
     <div className={className} onClick={onClick}>
       <BsFillArrowRightSquareFill className="slick-right-arrow"  />
@@ -45,6 +45,7 @@ const Carousel = () => {
     <Slider {...settings} >
     {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
             <div className="app__gallery-images_card flex__center" key={`gallery_image-${index + 1}`}>
+              <h3 className="slick-product">Ranchera</h3>
               <img src={image} alt="gallery_image" />
               <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
                 <BsInstagram className="gallery__image-icon" />
@@ -55,34 +56,3 @@ const Carousel = () => {
   </div>
 )};
 export default Carousel;
-
-{/* <div>
-        <div className="product-title">
-          <h4>Hamburguesa Ranchera</h4> 
-        </div>
-        <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
-      </div>
-      <div>
-        <div className="product-title">
-          <h4>Hamburguesa Portal</h4> 
-        </div>
-        <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
-      </div>
-      <div>
-        <div className="product-title">
-          <h4>Hamburguesa Norteña</h4> 
-        </div>
-        <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
-      </div>
-      <div>
-         <div className="product-title">
-          <h4>Hamburguesa Pollo</h4> 
-        </div>
-        <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
-      </div>
-      <div>
-         <div className="product-title">
-          <h4>Hamburguesa Junior</h4> 
-        </div>
-        <img src={images.rancheraBurger} alt="Hamburguesa Portal" />
-      </div> */}
