@@ -1,4 +1,7 @@
 /* styles from Carousel components */
+.app__carousel-images_card{
+  height: 25rem;
+}
 .slick-container{
   margin: auto;
 }

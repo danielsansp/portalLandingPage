@@ -41,7 +41,7 @@
 @media only screen and (max-width: 23rem) {
     .whatsapp_float {
         bottom: 1rem;
-        right: 2rem;
+        right: 1rem;
     }
     .whatsapp-icon{
         height: 3rem;
