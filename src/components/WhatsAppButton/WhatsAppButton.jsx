@@ -12,7 +12,7 @@ const WhatsAppButton = () => (
     rel="noopener noreferrer"
     className="whatsapp_float"
   >
-    <img src={images.whatsAppsvg} alt="Empleapp whatsapp info" className="whatsapp-icon" />
+    <img src={images.logoWhatsApp} alt="Empleapp whatsapp info" className="whatsapp-icon" />
   </a>
 );
 
