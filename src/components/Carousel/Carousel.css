@@ -1,4 +1,5 @@
 /* styles from Carousel components */
+@media only screen and (max-width: 36rem) {
 .app__carousel-images_card{
   height: 25rem;
 }
@@ -51,28 +52,29 @@
   height: 2rem;
   width: 3rem;
 }
-
-.simple-slider {
+}
+/*+++++++++++++++++*/
+/* .simple-slider {
   background-color: black;
   border-radius: black;
-}
+} */
 
-.simple-slider .slick-next {
+/* .simple-slider .slick-next {
   right: 1.5rem;
   top: 3rem;
-}
+} */
 
-.simple-slider .slick-slider {
+/* .simple-slider .slick-slider {
   padding-top: 6rem;
-}
+} */
 
-.simple-slider .slick-next:before {
+/* .simple-slider .slick-next:before {
   content: '>';
   color: var(--black);
   font-size: 3.5rem;
   font-weight: bold;
-}
-
+} */
+/* 
 .simple-slider .slick-prev {
   left: 1.5rem;
   top: 3rem;
@@ -90,16 +92,11 @@
   height: 100%;
   width: 100%;
   margin-bottom: 2rem;
-}
+} */
 
-@media only screen and (min-width: 36rem) {
+/* @media only screen and (min-width: 36rem) {
   .simple-slider {
     width: 80%;
   }
-}
+} */
 
-@media only screen and (min-width: 64rem) {
-  .mobile {
-    display: none;
-  }
-}
