@@ -1,8 +1,4 @@
 /* styles from Carousel components */
-@media only screen and (max-width: 36rem) {
-.app__carousel-images_card{
-  height: 25rem;
-}
 .slick-container{
   margin: auto;
 }
@@ -16,6 +12,51 @@
   color: white;
   margin-left: 1rem;
 }
+.slick-slider{
+  background: var(--color-black);
+}
+@media only screen and (max-width: 48rem) {
+  .app__carousel-images_card{
+    height: 25rem;
+  }
+  .slick-slide img{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: auto;
+    height: 100%;
+  }
+  .slick-prev{
+    position: absolute;
+    margin: auto;
+    bottom: -0rem;
+    right: 1rem; 
+    z-index: 3;
+  }
+  
+  .slick-next{
+    position: absolute;
+    bottom: 0rem;
+    left: 1rem;
+    margin: auto;
+    width: 3rem;
+    z-index: 3;
+  }
+  .slick-left-arrow{
+    height: 2rem;
+    width: 3rem;
+  }
+  .slick-right-arrow{
+    height: 2rem;
+    width: 3rem;
+  }
+}
+@media only screen and (max-width: 36rem) {
+.app__carousel-images_card{
+  height: 25rem;
+}
+
 .slick-slide img{
   display: flex;
   flex-direction: row;
@@ -23,9 +64,6 @@
   padding: 0.5rem;
   width: 100%;
   height: 100%;
-}
-.slick-slider{
-  background: var(--color-black);
 }
 
 .slick-prev{
