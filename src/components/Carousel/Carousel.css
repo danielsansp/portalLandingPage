@@ -66,6 +66,7 @@
   left: 5.5rem;
   font-size: 2rem;
   opacity: 0;
+  display: none;
  }
 .carousel_product_copy{
   position: absolute;
@@ -90,6 +91,7 @@
 }
 .app__carousel-images_card:hover .Instagram_link {
   opacity: 1;
+  display: inline;
 }
 .app__carousel-images_card:hover .carousel_product_copy{
   opacity: 1;
