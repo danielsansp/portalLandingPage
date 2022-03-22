@@ -59,18 +59,39 @@
   margin-right: 2rem;
   height: 25rem;
 }
-.gallery__image-icon {
+.Instagram_link{
+  position: absolute;
+  bottom: 5.5rem;
+  color: white;
+  left: 5.5rem;
+  font-size: 2rem;
+  opacity: 0;
+ }
+.carousel_product_copy{
+  position: absolute;
+  bottom: 3.5rem;
+  color: white;
+  left: 6.5rem;
+  font-size: 2rem;
+  opacity: 0;
+}
+.carousel__image-icon {
   position: absolute;
   color: #fff;
   font-size: 2rem;
   opacity: 0;
   transition: .5s ease;
   cursor: pointer;
+  height: 1rem;
+  width: 2rem;
 }
 .app__carousel-images_card:hover img {
   opacity: .35;
 }
-.app__carousel-images_card:hover .gallery__image-icon {
+.app__carousel-images_card:hover .Instagram_link {
+  opacity: 1;
+}
+.app__carousel-images_card:hover .carousel_product_copy{
   opacity: 1;
 }
 

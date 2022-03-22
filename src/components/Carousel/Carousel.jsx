@@ -45,13 +45,14 @@ const Carousel = () => {
     <Slider {...settings} >
     {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
             <div className="slick-slider"> 
-            <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
-              <h3 className="slick-product">Ranchera</h3>
-              <img src={image} alt="gallery_image " />
-              <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
-                <BsInstagram className="gallery__image-icon" />
-              </a>
-            </div>
+              <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
+                <h3 className="slick-product">Ranchera</h3>
+                <img src={image} alt="gallery_image " />
+                  <div className="carousel_product_copy">leyenda sobre producto</div>
+                <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
+                  <BsInstagram className="Instagram_link" />
+                </a>
+              </div>
             </div>
           ))}
     </Slider>
