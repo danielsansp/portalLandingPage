@@ -54,7 +54,24 @@
 }
 @media only screen and (max-width: 36rem) {
 .app__carousel-images_card{
+  position: relative;
+  min-width: 301px;
+  margin-right: 2rem;
   height: 25rem;
+}
+.gallery__image-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+}
+.app__carousel-images_card:hover img {
+  opacity: .35;
+}
+.app__carousel-images_card:hover .gallery__image-icon {
+  opacity: 1;
 }
 
 .slick-slide img{
