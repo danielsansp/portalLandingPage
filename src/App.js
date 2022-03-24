@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Gallery, Header, SandwichGallery, PerrosGallery} from './container';
+import { Footer, Header,} from './container';
 import { Navbar, Carousel} from './components';
 import './App.css';
 
