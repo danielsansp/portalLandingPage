@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BsInstagram, BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill } from 'react-icons/bs';
+import {BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill } from 'react-icons/bs';
 
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -29,7 +29,8 @@ function SamplePrevArrow(props) {
   );
 }
 
-const Carousel = () => {
+const Carousel = (props) => {
+  console.log(props.product)
   const settings = {
     autoplay: true,
     autoplaySpeed: 3000,
@@ -43,7 +44,7 @@ const Carousel = () => {
   };
   return (
   <div className="slick-container">
-    <h2 className="slick-title">Hamburguesas</h2>
+    <h2 className="slick-title">{props.product}</h2>
     <Slider {...settings} >
     {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
             <div className="slick-slider"> 
@@ -54,15 +55,16 @@ const Carousel = () => {
                 <h3 className="slick-product">{data.burgers[index].title}</h3>
                 <img src={image} alt="gallery_image " />
                   <div className="carousel_product_copy">{data.burgers[index].tags}</div>
-                <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
+                {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
                   <BsInstagram className="Instagram_link" />
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
     </Slider>
   </div>
 )};
+
 export default Carousel;
 /*
 <Slider {...settings} >
