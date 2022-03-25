@@ -32,7 +32,7 @@ function SamplePrevArrow(props) {
 const Carousel = (props) => {
   console.log(props.product)
   const settings = {
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     dots: false,
     infinite: true,

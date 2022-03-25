@@ -15,6 +15,64 @@
 .slick-slider{
   background: var(--color-black);
 }
+
+.app__carousel-images_card{
+  position: relative;
+  min-width: 301px;
+  margin-right: 2rem;
+  height: 5rem;
+}
+
+.slick-slide img{
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  width: 15rem;
+  height: 20rem;
+}
+
+.carousel__image-icon {
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0;
+  transition: .5s ease;
+  cursor: pointer;
+  height: 1rem;
+  width: 2rem;
+}
+
+.app__carousel-images_card:hover img {
+  opacity: .35;
+}
+
+
+
+.slick-prev{
+  position: absolute;
+  margin: auto;
+  bottom: -0rem;
+  right: 1rem; 
+  z-index: 3;
+}
+
+.slick-next{
+  position: absolute;
+  bottom: 0rem;
+  left: 1rem;
+  margin: auto;
+  width: 3rem;
+  z-index: 3;
+}
+.slick-left-arrow{
+  height: 2rem;
+  width: 3rem;
+}
+.slick-right-arrow{
+  height: 2rem;
+  width: 3rem;
+}
 @media only screen and (max-width: 48rem) {
   .app__carousel-images_card{
     height: 25rem;
