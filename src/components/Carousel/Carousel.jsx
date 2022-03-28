@@ -53,7 +53,7 @@ const Carousel = (props) => {
                 <h3 className="slick-product">{title}</h3>}
                 )} */}
                 <h3 className="slick-product">{data.burgers[index].title}</h3>
-                <h4 className="slick-product">{data.burgers[index].price}</h4>
+                <h4 className="slick-product-price">{data.burgers[index].price}</h4>
                 <img src={image} alt="gallery_image " />
                   <div className="carousel_product_copy">{data.burgers[index].tags}</div>
                 {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
