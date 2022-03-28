@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     background: var(--color-black);
-
     padding: 1rem 2rem;
 }
 
@@ -23,7 +22,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     list-style: none;
 }
 
@@ -70,7 +68,6 @@
     height: 100vh;
     background: var(--color-black);
     transition: .5s ease;
-
     flex-direction: column;
     z-index: 5;
 }
@@ -79,7 +76,6 @@
     font-size: 27px;
     color: var(--color-golden);
     cursor: pointer;
-
     position: absolute;
     top: 20px;
     right: 20px;
@@ -110,7 +106,7 @@
 
 @media screen and (max-width: 1150px) {
     .app__navbar-links {
-        display: none;
+        display: flex;
     }
 
     .app__navbar-smallscreen {
