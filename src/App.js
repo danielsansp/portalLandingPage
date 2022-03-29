@@ -11,7 +11,7 @@ const App = () => (
     {/* <Gallery />
     <SandwichGallery />
     <PerrosGallery /> */}
-    <Carousel product ={"hamburguesas"}/>
+    <Carousel product ={"Hamburguesas"}/>
     <Carousel product ={"Perros"}/>
     <Carousel product ={"Sandwich"}/>
     <Footer />
