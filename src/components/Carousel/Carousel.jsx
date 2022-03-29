@@ -43,7 +43,7 @@ const Carousel = (props) => {
     prevArrow: <SamplePrevArrow />
   };
   return (
-  <div className="slick-container">
+  <div className="slick-container" id={props.carouselId}>
     <h2 className="slick-title">{props.product}</h2>
     <Slider {...settings} >
     {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (

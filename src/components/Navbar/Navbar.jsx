@@ -12,11 +12,11 @@ const Navbar = () => {
         <img src={images.transparentLogo} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Hamburguesa</a></li>
-        <li className="p__opensans"><a href="#carousel">Perros</a></li>
-        <li className="p__opensans"><a href="#about">Sandwich</a></li>
-        <li className="p__opensans"><a href="#about">carnes</a></li>
-        <li className="p__opensans"><a href="#about">Bebidas</a></li>
+        <li className="p__opensans"><a href="#burger">Hamburguesa</a></li>
+        <li className="p__opensans"><a href="#perros">Perros</a></li>
+        <li className="p__opensans"><a href="#sandwich">Sandwich</a></li>
+        <li className="p__opensans"><a href="#home">Carnes</a></li>
+        <li className="p__opensans"><a href="#home">Bebidas</a></li>
       </ul>
       
       {/* { /* <div className="app__navbar-login">
