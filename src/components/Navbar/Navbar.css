@@ -114,7 +114,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 36rem) {
     .app__navbar {
         padding: 1rem;
     }
@@ -123,7 +123,19 @@
         display: none;
     }
 
+    .app__navbar-links {
+        position: relative;
+        bottom: -5em;
+        right: 6.5rem;
+    }
+
+    .app__navbar-links li {
+        margin: 0 0.5rem;
+        cursor: pointer;
+    }
     .app__navbar-logo img {
-        width: 110px;
+        position: relative;
+        width: 6rem;
+        left: 7rem;
     }
 }
