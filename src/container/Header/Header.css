@@ -36,9 +36,12 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 36rem) {
     .app__header-h1 {
-        font-size: 50px;
-        line-height: 70px;
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+    .app-wrapper_img {
+        margin: 2rem 0 0 0 !important;
     }
 }
