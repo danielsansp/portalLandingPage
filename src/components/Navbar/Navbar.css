@@ -124,6 +124,11 @@
     }
 
     .app__navbar-links {
+        /* width: 70%;
+        margin: auto !important;
+        display:inline-flex;
+        justify-content:center;
+        margin: auto; */
         position: relative;
         bottom: -5em;
         right: 5.6rem;
