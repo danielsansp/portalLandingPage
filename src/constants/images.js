@@ -1,6 +1,7 @@
 import bg from '../assets/bg.png';
 import burgerIcon from '../assets/burgerIcon.png';
 import cheesBurger from '../assets/cheesBurger.png';
+import homeIcon from '../assets/home-icon.svg';
 import logo from '../assets/logo.png';
 import logoPortal from '../assets/logoPortalSt.jpeg';
 import logoWhatsApp from '../assets/whatsapp-svgrepo-com.svg';
@@ -24,6 +25,7 @@ export default {
   bg,
   burgerIcon,
   cheesBurger,
+  homeIcon,
   logo,
   logoPortal,
   logoWhatsApp,

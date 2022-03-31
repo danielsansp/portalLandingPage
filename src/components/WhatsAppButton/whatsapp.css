@@ -6,6 +6,14 @@
     text-align: center;
     z-index: 100;
 }
+.home_float{
+    background-color: none;
+    color: white;
+    position: fixed;
+    left: 13rem;
+    text-align: center;
+    z-index: 100;
+}
 
 /* for md */
 @media only screen and (max-width: 101rem) {
@@ -33,8 +41,17 @@
         bottom: 1rem;
         right: 1rem;
     }
+    .home_float{
+        bottom: 1rem;
+        left: 1rem;
+    }
     .whatsapp-icon{
         height: 3rem;
+    }
+    .home-icon{
+        position: relative;
+        left: -0.5rem ;
+        height: 2.5rem; 
     }
 }
 

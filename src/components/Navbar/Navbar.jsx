@@ -4,7 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="app-navbar">
+    <nav className="app-navbar" id="navbar">
       <div className="">
         <img src={images.transparentLogo} alt="app__logo" className="app-navbar-logo" />
       </div>
