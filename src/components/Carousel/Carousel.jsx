@@ -46,7 +46,7 @@ const Carousel = (props) => {
   <div className="slick-container" id={props.carouselId}>
     <h2 className="slick-title">{props.product}</h2>
     <Slider {...settings} >
-    {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
+    {[images.portalweb, images.portazoweb, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
             <div className="slick-slider"> 
               <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
                 {/* {data.burgers.map(title, index =>{

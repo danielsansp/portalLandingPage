@@ -10,6 +10,8 @@ import nortenaBurger from '../assets/nortena.png';
 import overlaybg from '../assets/overlaybg.png';
 import perroBurger from '../assets/perroBurger.png';
 import portalBurger from '../assets/portalBurger.png';
+import portalweb from '../assets/portal-web.jpg';
+import portazoweb from '../assets/portazo-web.jpg';
 import portazoBurger from '../assets/portazoBurger.png';
 import rancheraBurger from '../assets/rancheraBurger.png';
 import sandwichGratinado from '../assets/sandwichGratinado.png';
@@ -35,6 +37,8 @@ export default {
   perroBurger,
   portalBurger,
   portazoBurger,
+  portalweb,
+  portazoweb,
   rancheraBurger,
   sandwichGratinado,
   salchipapas,

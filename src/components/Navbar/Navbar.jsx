@@ -12,8 +12,8 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#burger">Hamburguesa</a></li>
         <li className="p__opensans"><a href="#perros">Perros</a></li>
         <li className="p__opensans"><a href="#sandwich">Sandwich</a></li>
-        <li className="p__opensans"><a href="#home">Carnes</a></li>
-        <li className="p__opensans"><a href="#home">Bebidas</a></li>
+        {/* <li className="p__opensans"><a href="#home">Carnes</a></li>
+        <li className="p__opensans"><a href="#home">Bebidas</a></li> */}
       </ul>
     </nav>
   );
