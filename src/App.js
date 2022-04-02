@@ -11,9 +11,9 @@ const App = () => (
     {/* <Gallery />
     <SandwichGallery />
     <PerrosGallery /> */}
-    <Carousel product ={"Hamburguesas"} carouselId={"burger"}/>
-    <Carousel product ={"Perros"} carouselId={"perros"}/>
-    <Carousel product ={"Sandwich"} carouselId={"sandwich"}/>
+    <Carousel product ={"Hamburguesas"} carouselId={"burger"} image="burgers"/>
+    <Carousel product ={"Perros"} carouselId={"perros"} image="perros"/>
+    <Carousel product ={"Sandwich"} carouselId={"sandwich"} image="sandwich"/>
     <Footer />
   </div>
 );
