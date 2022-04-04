@@ -10,6 +10,7 @@ import { images, data } from '../../constants';
 
 import './Carousel.css';
 
+
 function SampleNextArrow(props) {
   const { className, onClick } = props;
   return (
@@ -41,27 +42,27 @@ const Carousel = (props) => {
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
   };
-   //console.log(props.images)
-   let imagesArray=[];
-   let product= '';
-   let carouselImage=props.product;
+  let imagesArray=[];
+   
+  let carouselImage=props.product;
   
     if(carouselImage==='Hamburguesas'){
       imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
-      product= props.product;
+                  
     } else if (carouselImage==='Perros'){
         imagesArray = [images.perroBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
       } else{
           imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
-      }
+        }
 
-    
+      console.log(props.slideTitle)
     return (
   <div className="slick-container" id={props.carouselId}>
     <h2 className="slick-title">{props.product} </h2>
     
     <Slider {...settings} >
     {imagesArray.map((image, index) => (
+            
             <div className="slick-slider"> 
               <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
                 {/* {data.burgers.map(title, index =>{
