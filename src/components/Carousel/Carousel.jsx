@@ -43,19 +43,29 @@ const Carousel = (props) => {
     prevArrow: <SamplePrevArrow />
   };
   let imagesArray=[];
+  let productArray=[];
+  let priceArray=[];
    
   let carouselImage=props.product;
   
     if(carouselImage==='Hamburguesas'){
       imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
-                  
+      productArray = data.burgers.map(data => data= data.title);
+      priceArray = data.burgers.map(data => data= data.price);
+      console.log(`data array= ${priceArray}`)         
     } else if (carouselImage==='Perros'){
         imagesArray = [images.perroBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
+        productArray = data.perros.map(data => data= data.title);
+        priceArray = data.burgers.map(data => data= data.price);
+        console.log(`data array= ${priceArray}`)         
       } else{
           imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
+          productArray = data.sandwich.map(data => data= data.title);
+          priceArray = data.burgers.map(data => data= data.price);
+          console.log(`data array= ${priceArray}`)         
         }
 
-      console.log(props.slideTitle)
+      // console.log(props.slideTitle)
     return (
   <div className="slick-container" id={props.carouselId}>
     <h2 className="slick-title">{props.product} </h2>
@@ -65,13 +75,10 @@ const Carousel = (props) => {
             
             <div className="slick-slider"> 
               <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
-                {/* {data.burgers.map(title, index =>{
-                <h3 className="slick-product">{title}</h3>}
-                )} */}
-                <h3 className="slick-product">{data.burgers[index].title}</h3>
-                <h4 className="slick-product-price">{data.burgers[index].price}</h4>
+                <h3 className="slick-product">{productArray[index]}</h3>
+                <h4 className="slick-product-price">{priceArray[index]}</h4>
                 <img src={image} alt="gallery_image " />
-                  <div className="carousel_product_copy">{data.burgers[index].tags}</div>
+                  <div className="carousel_product_copy">{priceArray[index]}</div>
                 {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
                   <BsInstagram className="Instagram_link" />
                 </a> */}
