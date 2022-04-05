@@ -45,6 +45,7 @@ const Carousel = (props) => {
   let imagesArray=[];
   let productArray=[];
   let priceArray=[];
+  let copyArray=[];
    
   let carouselImage=props.product;
   
@@ -52,20 +53,22 @@ const Carousel = (props) => {
       imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
       productArray = data.burgers.map(data => data= data.title);
       priceArray = data.burgers.map(data => data= data.price);
-      console.log(`data array= ${priceArray}`)         
+      copyArray = data.burgers.map(data => data= data.tags);
+      //console.log(`data array= ${priceArray}`)         
     } else if (carouselImage==='Perros'){
         imagesArray = [images.perroBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
         productArray = data.perros.map(data => data= data.title);
         priceArray = data.burgers.map(data => data= data.price);
-        console.log(`data array= ${priceArray}`)         
+        copyArray = data.burgers.map(data => data= data.tags);
+        //console.log(`data array= ${priceArray}`)         
       } else{
           imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
           productArray = data.sandwich.map(data => data= data.title);
           priceArray = data.burgers.map(data => data= data.price);
-          console.log(`data array= ${priceArray}`)         
+          copyArray = data.burgers.map(data => data= data.tags);
+          //console.log(`data array= ${priceArray}`)         
         }
 
-      // console.log(props.slideTitle)
     return (
   <div className="slick-container" id={props.carouselId}>
     <h2 className="slick-title">{props.product} </h2>
@@ -78,7 +81,7 @@ const Carousel = (props) => {
                 <h3 className="slick-product">{productArray[index]}</h3>
                 <h4 className="slick-product-price">{priceArray[index]}</h4>
                 <img src={image} alt="gallery_image " />
-                  <div className="carousel_product_copy">{priceArray[index]}</div>
+                  <div className="carousel_product_copy">{copyArray[index]}</div>
                 {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
                   <BsInstagram className="Instagram_link" />
                 </a> */}
@@ -90,18 +93,3 @@ const Carousel = (props) => {
 )};
 
 export default Carousel;
-/*
-<Slider {...settings} >
-    {[images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger].map((image, index) => (
-            <div className="slick-slider"> 
-              <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
-                <h3 className="slick-product">Ranchera</h3>
-                <img src={image} alt="gallery_image " />
-                  <div className="carousel_product_copy">leyenda sobre producto</div>
-                <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
-                  <BsInstagram className="Instagram_link" />
-                </a>
-              </div>
-            </div>
-          ))}
-    </Slider> */
