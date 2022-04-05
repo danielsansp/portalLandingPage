@@ -148,10 +148,10 @@
   position: absolute;
   bottom: 3.5rem;
   color: var(--color-white);
-  left: 4.5rem;
+  left: 2.5rem;
   font-size: 2rem;
   opacity: 0;
-  width: 15rem;
+  width: 18rem;
 }
 .carousel__image-icon {
   position: absolute;
