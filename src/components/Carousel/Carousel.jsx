@@ -56,16 +56,16 @@ const Carousel = (props) => {
       copyArray = data.burgers.map(data => data= data.tags);
       //console.log(`data array= ${priceArray}`)         
     } else if (carouselImage==='Perros'){
-        imagesArray = [images.perroBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
+        imagesArray = [images.perroBurger, images.rancheraBurger, images.rancheraBurger]
         productArray = data.perros.map(data => data= data.title);
-        priceArray = data.burgers.map(data => data= data.price);
-        copyArray = data.burgers.map(data => data= data.tags);
+        priceArray = data.perros.map(data => data= data.price);
+        copyArray = data.perros.map(data => data= data.tags);
         //console.log(`data array= ${priceArray}`)         
       } else{
-          imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
+          imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
           productArray = data.sandwich.map(data => data= data.title);
-          priceArray = data.burgers.map(data => data= data.price);
-          copyArray = data.burgers.map(data => data= data.tags);
+          priceArray = data.sandwich.map(data => data= data.price);
+          copyArray = data.sandwich.map(data => data= data.tags);
           //console.log(`data array= ${priceArray}`)         
         }
 

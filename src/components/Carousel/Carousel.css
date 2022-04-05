@@ -113,18 +113,18 @@
 @media only screen and (max-width: 36rem) {
   .slick-title{
     background: var(--color-black);
-    color: rgb(196, 57, 57);
+    color: var(--color-red);
     font-size: 3rem;
     padding-top: 2rem;
     padding-left: 1.3rem;
   }
   .slick-product{
-    color: white;
+    color: var(--color-white);
     margin-left: 1.3rem;
     font-size: 2rem;
   }
   .slick-product-price{
-    color: white;
+    color: var(--color-white);
     margin-left: 1.3rem;
     font-size: 1.5rem;
   }
@@ -138,7 +138,7 @@
 .Instagram_link{
   position: absolute;
   bottom: 5.5rem;
-  color: white;
+  color: var(--color-white);
   left: 5.5rem;
   font-size: 2rem;
   opacity: 0;
@@ -147,14 +147,15 @@
 .carousel_product_copy{
   position: absolute;
   bottom: 3.5rem;
-  color: white;
-  left: 6.5rem;
+  color: var(--color-white);
+  left: 4.5rem;
   font-size: 2rem;
   opacity: 0;
+  width: 15rem;
 }
 .carousel__image-icon {
   position: absolute;
-  color: #fff;
+  color: var(--color-red);
   font-size: 2rem;
   opacity: 0;
   transition: .5s ease;
@@ -185,7 +186,7 @@
 .slick-prev{
   position: absolute;
   bottom: -0rem;
-  color: rgb(196, 57, 57);
+  color: var(--color-red);
   margin: auto;
   right: 1.2rem; 
   z-index: 3;
@@ -194,7 +195,7 @@
 .slick-next{
   position: absolute;
   bottom: 0rem;
-  color: rgb(196, 57, 57);
+  color: var(--color-red);;
   left: 1.2rem;
   margin: auto;
   width: 3rem;
@@ -209,50 +210,3 @@
   width: 3rem;
 }
 }
-/*+++++++++++++++++*/
-/* .simple-slider {
-  background-color: black;
-  border-radius: black;
-} */
-
-/* .simple-slider .slick-next {
-  right: 1.5rem;
-  top: 3rem;
-} */
-
-/* .simple-slider .slick-slider {
-  padding-top: 6rem;
-} */
-
-/* .simple-slider .slick-next:before {
-  content: '>';
-  color: var(--black);
-  font-size: 3.5rem;
-  font-weight: bold;
-} */
-/* 
-.simple-slider .slick-prev {
-  left: 1.5rem;
-  top: 3rem;
-}
-
-.simple-slider .slick-prev:before {
-  content: '<';
-  color: var(--black);
-  font-size: 3.5rem;
-  font-weight: bold;
-}
-
-.mobil-image-section{
-  border-radius: var(--second-border-radius);
-  height: 100%;
-  width: 100%;
-  margin-bottom: 2rem;
-} */
-
-/* @media only screen and (min-width: 36rem) {
-  .simple-slider {
-    width: 80%;
-  }
-} */
-
