@@ -1,21 +1,29 @@
-.app__navbar {
+/* .app__navbar {
     align-items: center;
     background: var(--color-black);
     display: flex;
     justify-content: space-between;
     padding: 1rem 2rem;
     width: 100%;
-}
+} */
 .app-navbar{
     align-items: center;
     background-color: var(--color-black);
-    display: block;
+    display: inline-flex;
+    width: 100%;
+}
+
+.app-navbar-logo{
+    height: 15rem;
+    margin: 3rem 0 0 3rem;
+    display: inline;
 }
 
 .app__navbar-logo {
     align-items: center;
     display: flex;
     justify-content: flex-start;
+    height: 20rem;
 }
 
 .app__navbar-logo img {
@@ -119,7 +127,12 @@
     }
 }
 
-@media screen and (max-width: 36rem) {
+@media screen and (max-width: 23rem) {
+    .app-navbar{
+        align-items: center;
+        background-color: var(--color-black);
+        display: block;
+    }
     .app__navbar {
         padding: 1rem;
     }
@@ -137,8 +150,9 @@
     .app-navbar-logo {
         display: block;
         height: 6rem;
-        padding-top: 1rem ;
+        padding-top: 0rem ;
         margin-left: auto;
+        margin-top: 1rem;
         margin-right: auto;
     } 
 }
