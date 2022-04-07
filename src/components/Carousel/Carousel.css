@@ -1,7 +1,8 @@
 /* styles from Carousel components */
 .slick-container{
-  margin: auto;
-}
+  
+  
+  }
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
@@ -47,8 +48,6 @@
   opacity: .35;
 }
 
-
-
 .slick-prev{
   position: absolute;
   margin: auto;
@@ -65,10 +64,12 @@
   width: 3rem;
   z-index: 3;
 }
+
 .slick-left-arrow{
   height: 2rem;
   width: 3rem;
 }
+
 .slick-right-arrow{
   height: 2rem;
   width: 3rem;
@@ -111,6 +112,9 @@
   }
 }
 @media only screen and (max-width: 36rem) {
+  .slick-container{
+    margin: auto;
+  }
   .slick-title{
     background: var(--color-black);
     color: var(--color-red);

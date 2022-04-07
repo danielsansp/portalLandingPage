@@ -7,16 +7,22 @@
     width: 100%;
 } */
 .app-navbar{
-    align-items: center;
+    /* align-items: center;
     background-color: var(--color-black);
     display: inline-flex;
+    width: 100%; */
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .app-navbar-logo{
+    position: relative;
     height: 15rem;
-    margin: 3rem 0 0 3rem;
-    display: inline;
+    margin: 3rem 0 0 6rem;
+    
+    
 }
 
 .app__navbar-logo {
@@ -33,14 +39,17 @@
 .app__navbar-links {
     align-items: center;
     display: flex;
-    flex: 1;
-    justify-content: center;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
     list-style: none;
+    
 }
 
 .app__navbar-links li {
     cursor: pointer;
     margin: 0 1.3rem;
+    font-size: 2rem;
 }
 
 .app__navbar-links li:hover {
@@ -132,6 +141,10 @@
         align-items: center;
         background-color: var(--color-black);
         display: block;
+        
+        /* display: flex;
+        justify-content: space-between;
+        align-items: flex-start; */
     }
     .app__navbar {
         padding: 1rem;
@@ -141,6 +154,14 @@
         display: none;
     }
 
+    .app__navbar-links {
+        align-items: center;
+        display: flex;
+        margin: auto;
+        justify-content:space-around;
+        text-align: center;
+        list-style: none;
+    }
     .app__navbar-links li {
         cursor: pointer;
         font-size: 0.9rem;

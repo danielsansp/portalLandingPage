@@ -71,8 +71,11 @@ const Carousel = (props) => {
 
     return (
   <div className="slick-container" id={props.carouselId}>
-    <h2 className="slick-title">{props.product} </h2>
-    
+    <div>
+      <h2 className="slick-title">{props.product} </h2>
+    </div>
+    <div>
+
     <Slider {...settings} >
     {imagesArray.map((image, index) => (
             
@@ -89,6 +92,7 @@ const Carousel = (props) => {
             </div>
           ))}
     </Slider>
+    </div>
   </div>
 )};
 
