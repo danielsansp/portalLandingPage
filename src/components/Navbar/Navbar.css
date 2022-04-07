@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: var(--color-black);
 }
 
 .app-navbar-logo{
@@ -139,7 +140,7 @@
 @media screen and (max-width: 23rem) {
     .app-navbar{
         align-items: center;
-        background-color: var(--color-black);
+        background-color: var(--color-black) !important;
         display: block;
         
         /* display: flex;
@@ -171,9 +172,9 @@
     .app-navbar-logo {
         display: block;
         height: 6rem;
-        padding-top: 0rem ;
+        padding-top: 1rem ;
         margin-left: auto;
-        margin-top: 1rem;
+        margin-top: 0rem;
         margin-right: auto;
     } 
 }
