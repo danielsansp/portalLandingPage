@@ -70,30 +70,46 @@ const Carousel = (props) => {
         }
 
     return (
-  <div className="slick-container" id={props.carouselId}>
-    <div>
+  <main className="slick-container" id={props.carouselId}>
+    <div className="box1">
       <h2 className="slick-title">{props.product} </h2>
     </div>
     <div>
-
-    <Slider {...settings} >
-    {imagesArray.map((image, index) => (
+      <div className="box2">
+      {/* <img src={images.rancheraBurger} alt="gallery_image " className="app__carousel-images_card"/> */}
+        <Slider {...settings} >
+          {imagesArray.map((image, index) => (
             
             <div className="slick-slider"> 
-              <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
-                <h3 className="slick-product">{productArray[index]}</h3>
-                <h4 className="slick-product-price">{priceArray[index]}</h4>
-                <img src={image} alt="gallery_image " />
-                  <div className="carousel_product_copy">{copyArray[index]}</div>
-                {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
-                  <BsInstagram className="Instagram_link" />
-                </a> */}
-              </div>
-            </div>
-          ))}
-    </Slider>
+                    <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
+                      <h3 className="slick-product">{productArray[index]}</h3>
+                      <h4 className="slick-product-price">{priceArray[index]}</h4>
+                      <img src={image} alt="gallery_image " />
+                        <div className="carousel_product_copy">{copyArray[index]}</div>
+                      </div>
+                  </div>
+              ))}
+        </Slider>
+      </div>
     </div>
-  </div>
+  </main>
 )};
 
 export default Carousel;
+
+{/* <Slider {...settings} >
+          {imagesArray.map((image, index) => (
+            
+            <div className="slick-slider"> 
+                    <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
+                      <h3 className="slick-product">{productArray[index]}</h3>
+                      <h4 className="slick-product-price">{priceArray[index]}</h4>
+                      <img src={image} alt="gallery_image " />
+                        <div className="carousel_product_copy">{copyArray[index]}</div>
+                      {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
+                        <BsInstagram className="Instagram_link" />
+                      </a> }
+                    </div>
+                  </div>
+              ))}
+        </Slider> */}

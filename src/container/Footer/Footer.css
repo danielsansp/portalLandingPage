@@ -1,15 +1,13 @@
 .app__footer {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-
+    align-items: center;
+    background: var(--color-black);
+    flex-direction: column;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-
-    background: var(--color-black);
     padding-top: 0;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
 .app__footer-links {

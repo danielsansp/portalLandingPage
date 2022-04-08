@@ -1,8 +1,19 @@
 /* styles from Carousel components */
 .slick-container{
-  
-  
+display: flex;
+justify-content: space-between;
+background-color: var(--color-black);
   }
+.box1{
+
+}
+
+.box2{
+display: block;
+}
+
+
+
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
@@ -18,7 +29,7 @@
 }
 
 .app__carousel-images_card{
-  position: relative;
+  /* position: relative; */
   min-width: 301px;
   margin-right: 2rem;
   height: 5rem;
