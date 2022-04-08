@@ -124,6 +124,7 @@ display: block;
 }
 @media only screen and (max-width: 36rem) {
   .slick-container{
+    display: block;
     margin: auto;
   }
   .slick-title{
