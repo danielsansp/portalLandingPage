@@ -3,16 +3,7 @@
 display: flex;
 justify-content: space-between;
 background-color: var(--color-black);
-  }
-.box1{
-
 }
-
-.box2{
-display: block;
-}
-
-
 
 .slick-title{
   background: var(--color-black);
@@ -20,10 +11,12 @@ display: block;
   font-size: 3rem;
   padding-left: 1rem;
 }
+
 .slick-product{
   color: white;
   margin-left: 1rem;
 }
+
 .slick-slider{
   background: var(--color-black);
 }
@@ -165,7 +158,7 @@ display: block;
   bottom: 3.5rem;
   color: var(--color-white);
   left: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.4rem;
   opacity: 0;
   width: 18rem;
 }
