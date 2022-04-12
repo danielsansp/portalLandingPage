@@ -142,8 +142,8 @@ background-color: var(--color-black);
   position: relative;
   min-width: 301px;
   margin-right: 2rem;
-  height: 25rem;
-  padding-bottom: 1.8rem;
+  height: 36rem;
+  padding-bottom: 0.5rem;
 }
 .Instagram_link{
   position: absolute;
@@ -190,7 +190,7 @@ background-color: var(--color-black);
   margin: 1rem;
   padding: 0.5rem;
   width: 100%;
-  height: 90%;
+  height: 100%;
 }
 
 .slick-prev{
