@@ -50,7 +50,7 @@ const Carousel = (props) => {
   let carouselImage=props.product;
   
     if(carouselImage==='Hamburguesas'){
-      imagesArray = [images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger]
+      imagesArray = [images.portalweb, images.portazoweb, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.rancheraBurger, images.arepaBurger]
       productArray = data.burgers.map(data => data= data.title);
       priceArray = data.burgers.map(data => data= data.price);
       copyArray = data.burgers.map(data => data= data.tags);

@@ -1,3 +1,4 @@
+import arepaBurger from '../assets/arepaBurger.png';
 import bg from '../assets/bg.png';
 import burgerIcon from '../assets/burgerIcon.png';
 import cheesBurger from '../assets/cheesBurger.png';
@@ -10,8 +11,8 @@ import nortenaBurger from '../assets/nortena.png';
 import overlaybg from '../assets/overlaybg.png';
 import perroBurger from '../assets/perroBurger.png';
 import portalBurger from '../assets/portalBurger.png';
-import portalweb from '../assets/portal-web.jpg';
-import portazoweb from '../assets/portazo-web.jpg';
+import portalweb from '../assets/portal1-web.jpg';
+import portazoweb from '../assets/portazo1-web.jpg';
 import portazoBurger from '../assets/portazoBurger.png';
 import rancheraBurger from '../assets/rancheraBurger.png';
 import sandwichGratinado from '../assets/sandwichGratinado.png';
@@ -24,6 +25,7 @@ import transparentLogo from '../assets/transparentLogo.png';
 import whatsAppsvg from "../assets/whatsapp-icon.svg"
 
 export default {
+  arepaBurger,
   bg,
   burgerIcon,
   cheesBurger,

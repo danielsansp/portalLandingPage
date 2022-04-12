@@ -143,6 +143,7 @@ background-color: var(--color-black);
   min-width: 301px;
   margin-right: 2rem;
   height: 25rem;
+  padding-bottom: 1.8rem;
 }
 .Instagram_link{
   position: absolute;

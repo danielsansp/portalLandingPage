@@ -43,6 +43,12 @@ const burgers = [
     tags: '120 gr de carne desmechada con picante y frijol sofritot, tocineta, queso, aros de cebolla, pepino agridulces',
     comboPrice: '$19.500',
   },
+  {
+    title: 'ArepaBurger',
+    price: '$11.500',
+    tags: '150 gr de carne artesanal, queso, tocineta, lechuga, tomate',
+    comboPrice: '$16.000',
+  },
 ];
 
 const sandwich = [
