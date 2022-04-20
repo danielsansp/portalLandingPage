@@ -96,20 +96,3 @@ const Carousel = (props) => {
 )};
 
 export default Carousel;
-
-{/* <Slider {...settings} >
-          {imagesArray.map((image, index) => (
-            
-            <div className="slick-slider"> 
-                    <div className="app__carousel-images_card" key={`gallery_image-${index + 1}`}>
-                      <h3 className="slick-product">{productArray[index]}</h3>
-                      <h4 className="slick-product-price">{priceArray[index]}</h4>
-                      <img src={image} alt="gallery_image " />
-                        <div className="carousel_product_copy">{copyArray[index]}</div>
-                      {/* <a href="https://instagram.com/portal.st50?utm_medium=copy_link" target="_blank" rel="noreferrer noopener" className="Instagram_link">
-                        <BsInstagram className="Instagram_link" />
-                      </a> }
-                    </div>
-                  </div>
-              ))}
-        </Slider> */}
