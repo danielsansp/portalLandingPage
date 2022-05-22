@@ -76,8 +76,8 @@ const Carousel = (props) => {
     </div>
     <div>
       <div className="box2">
-      {/* <img src={images.rancheraBurger} alt="gallery_image " className="app__carousel-images_card"/> */}
-        <Slider {...settings} >
+      <img src={images.rancheraBurger} alt="gallery_image " className="app__carousel-images_card"/> 
+        {/* <Slider {...settings} >
           {imagesArray.map((image, index) => (
             
             <div className="slick-slider"> 
@@ -89,7 +89,7 @@ const Carousel = (props) => {
                       </div>
                   </div>
               ))}
-        </Slider>
+        </Slider> */}
       </div>
     </div>
   </main>

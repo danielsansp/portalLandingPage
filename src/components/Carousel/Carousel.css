@@ -1,10 +1,28 @@
 /* styles from Carousel components */
-.slick-container{
-display: flex;
-justify-content: space-between;
-background-color: var(--color-black);
-}
 
+.slick-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-black);
+  
+}
+.box1{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.box2{
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
