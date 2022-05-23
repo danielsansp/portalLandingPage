@@ -4,9 +4,11 @@ import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import Carousel from './Carousel/Carousel';
+import BurgerGallery from './BurgerGallery/BurgerGallery';
 import WhatsAppButton from './WhatsAppButton/WhatsAppButton'; 
 
 export {
+  BurgerGallery,
   Carousel,
   SubHeading,
   Newsletter,

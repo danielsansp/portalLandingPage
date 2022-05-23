@@ -1,12 +1,12 @@
 /* styles from Carousel components */
 
 .slick-container{
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-black);
-  
 }
+
 .box1{
   flex: 1;
   width: 100%;
@@ -15,14 +15,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
+
 .box2{
   flex: 1;
   width: 100%;
-  display: flex;
+  display: block;
   justify-content: center;
   align-items: center;
-  
 }
+
 .slick-title{
   background: var(--color-black);
   color: rgb(196, 57, 57);
@@ -96,7 +97,7 @@
   height: 2rem;
   width: 3rem;
 }
-@media only screen and (max-width: 48rem) {
+/* @media only screen and (max-width: 48rem) {
   .app__carousel-images_card{
     height: 25rem;
   }
@@ -237,4 +238,4 @@
   height: 2rem;
   width: 3rem;
 }
-}
+} */
